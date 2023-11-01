@@ -4,7 +4,7 @@ Repositório que deve ser utilizado como template inicial pelos grupos da Discip
 
 (Apague esta seção)
 
-# NomedoProjeto
+# Code Cast
 **Número do Grupo:** XX
 **Disciplina:** xx
 **Professor:** xx
