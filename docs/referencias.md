@@ -3,6 +3,12 @@
 
 # Depois exlcuir
 
+# RepositorioTemplate
+
+Repositório que deve ser utilizado como template inicial pelos grupos da Disciplina de Engenharia de Software III (Arquitetura de Software) do IFPI Campus Pedro II, ministrada pelo Prof. Cleber Araújo. **Atenção: Renomeie o seu repositório para (Ano.Semestre)(Grupo)(NomeDoProjeto).** 
+
+(Apague esta seção)
+
 # Como usar algumas funções: 
 
 # Documentação de Software
