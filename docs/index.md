@@ -1,4 +1,6 @@
-<img src="./img/LogoCodeCast.png">
+<div align="center">
+    <img src="./img/LogoCodeCast.png" height= 200px >
+</div>
 
 # Sobre
 
