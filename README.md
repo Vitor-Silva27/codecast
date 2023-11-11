@@ -3,8 +3,8 @@
 </div>
 
 # Code Cast
-**Número do Grupo:** 6
-**Disciplina:** Engenharia de software III
+**Número do Grupo:** 6  
+**Disciplina:** Engenharia de software III  
 **Professor:** Cleber Araujo
 
 
@@ -12,9 +12,9 @@
 | Matrícula   | Aluno             |
 |-------------|-------------------|
 | 2022123TADS0195   | Alan Manoel  |
-| 2022123TADS  | João Vitor  |
+| 2022123TADS0063  | João Vitor  |
 | 2022123TADS0128  | Lucas Eduardo  |
-| 2022123TADS  | Luis Alberto  |
+| 2022123TADS0071  | Luis Alberto  |
 
 ## Sobre
 Descrição geral do seu projeto.
