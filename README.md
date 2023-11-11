@@ -1,20 +1,20 @@
-# RepositorioTemplate
+<div align="center">
+    <img src="./docs/img/LogoCodeCast.png" height= "200" width = "200">
+</div>
 
-Repositório que deve ser utilizado como template inicial pelos grupos da Disciplina de Engenharia de Software III (Arquitetura de Software) do IFPI Campus Pedro II, ministrada pelo Prof. Cleber Araújo. **Atenção: Renomeie o seu repositório para (Ano.Semestre)(Grupo)(NomeDoProjeto).** 
-
-(Apague esta seção)
-
-# NomedoProjeto
-**Número do Grupo:** XX
-**Disciplina:** xx
-**Professor:** xx
+# Code Cast
+**Número do Grupo:** 6
+**Disciplina:** Engenharia de software III
+**Professor:** Cleber Araujo
 
 
 ## Alunos
 | Matrícula   | Aluno             |
 |-------------|-------------------|
-| xx/xxxxxx   | xxxx xxxx xxxxx  |
-| xx/xxxxxx   | xxxx xxxx xxxxx  |
+| 2022123TADS0195   | Alan Manoel  |
+| 2022123TADS  | João Vitor  |
+| 2022123TADS0128  | Lucas Eduardo  |
+| 2022123TADS  | Luis Alberto  |
 
 ## Sobre
 Descrição geral do seu projeto.
