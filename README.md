@@ -9,12 +9,12 @@
 
 
 ## Alunos
-| Matrícula   | Aluno             |
-|-------------|-------------------|
-| 2022123TADS0195   | Alan Manoel  |
-| 2022123TADS0063  | João Vitor  |
-| 2022123TADS0128  | Lucas Eduardo  |
-| 2022123TADS0071  | Luis Alberto  |
+| Matrícula        | Aluno         | Cargo                 |
+|------------------|---------------|-----------------------|
+| 2022123TADS0195  | Alan Manoel   | Gerente de Qualidade  |
+| 2022123TADS0063  | João Vitor    | Desenvolvedor Sênior  |
+| 2022123TADS0128  | Lucas Eduardo | Analista de Requisitos|
+| 2022123TADS0071  | Luis Alberto  | Arquiteto de Software |
 
 ## Sobre
 Descrição geral do seu projeto.
@@ -25,7 +25,7 @@ Descrição geral do seu projeto.
 ![Screenshot 3](URL_da_Imagem_3)
 
 ## Instalação
-**Linguagens:** xxxxxx
+**Linguagens:** xxxxxx  
 **Tecnologias:** xxxxxx
 
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários. Insira um manual ou um script para auxiliar ainda mais.
