@@ -1,11 +1,6 @@
 # Introdução
 
-
-A introdução do **Documento de Arquitetura de Software** fornece uma **visão geral do documento inteiro**. Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software. Por exemplo:
-
-> "Este documento oferece uma visão geral arquitetural abrangente do sistema, usando diversas visões arquiteturais para representar diferentes aspectos do sistema. O objetivo deste documento é capturar e comunicar as decisões arquiteturais significativas que foram tomadas em relação ao sistema".
-
-Esta seção define o papel ou finalidade do Documento de Arquitetura de Software, na documentação do projeto como um todo, e descreve rapidamente a estrutura do documento. O público-alvo específico do documento é identificado, com uma indicação de como ele espera usar o documento.
+Este documento apresenta uma visão abrangente da arquitetura do sistema de streaming de vídeos e transmissão ao vivo de conteúdo relacionado à programação. Desenvolvido para orientar os desenvolvedores de software, este guia tem como objetivo documentar de maneira clara e completa os requisitos essenciais para a construção bem-sucedida deste sistema inovador.
 
 #### Finalidade do Documento:
 - Explicação da razão para a criação do documento. 
