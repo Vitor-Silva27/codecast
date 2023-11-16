@@ -27,7 +27,7 @@ nav:
   - Referências: 'referencias.md'
 
 theme: readthedocs
-  version: 1.0
+  version: 'latest'
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
