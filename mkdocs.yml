@@ -1,4 +1,4 @@
-site_name: Projeto de Arquitetura de Software
+site_name: codecast
 site_url: https://github.com/luisalberto002/codecast.git
 
 nav:
@@ -28,7 +28,7 @@ nav:
 
 theme: 
   name: readthedocs
-  version: '1.0'
+  version: 1.0
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
