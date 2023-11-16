@@ -1,5 +1,5 @@
 site_name: Projeto de Arquitetura de Software
-site_url: https://https://github.com/Klebber-ifpi/Arquitetura
+site_url: https://github.com/luisalberto002/codecast.git
 
 nav:
   - Home: 'index.md'
@@ -26,8 +26,9 @@ nav:
   - Anexos: 'anexos.md'
   - Referências: 'referencias.md'
 
-theme: readthedocs
-  - Version: '1.0'
+theme: 
+  name: readthedocs
+  version: '1.0'
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
