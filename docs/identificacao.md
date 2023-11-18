@@ -13,7 +13,8 @@
 |Código |Identificação |Classificação |Ator |Objetivo|
 
 # Requisitos Não Funcionais 
-|Código |Identificação |Classificação |Ator |Objetivo|
+|Código  |Identificação |Classificação |Ator |Objetivo|
+|--------|--------------|--------------|--------|--------|
 |[RNF01] |Usabilidade |Essencial |Designer|O sistema deve ser projetado com foco na usabilidade, proporcionando uma experiência de usuário intuitiva e agradável. Deve ser fácil de navegar e de entender, com interfaces de usuário amigáveis, eficientes e responsivas|
 |[RNF02] |Escalabilidade e arquitetura |Essencial |Arquiteto|O sistema deve ser projetado com escalabilidade em mente, garantindo que possa lidar com um aumento no número de usuários e conteúdos sem comprometer o desempenho. A arquitetura do sistema deve ser robusta e flexível|
 |[RNF03] |Segurança da informação|Essencial |Desenvolvedor|O sistema deve implementar medidas de segurança eficazes para proteger as informações dos usuários, incluindo dados pessoais e de pagamento. Isso inclui criptografia de dados, autenticação segura e proteção contra ameaças cibernéticas|
