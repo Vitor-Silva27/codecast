@@ -4,7 +4,7 @@
 
 # Sobre
 
-Este repositório é destinado ao grupo Archighosts - [**CodeCast**](https://github.com/luisalberto002/codecast), contém toda a documentação do   projeto da disciplina **Engenharia de Software III - Arquitetura e Design de Software**, ministrada pela Professor **Cleber Araujo**, no **Instituto Federal do Piaui Campus Pedro II, durante o período de 2023/2**.
+Este repositório é destinado ao grupo Archighosts - [**CodeCast**](https://github.com/luisalberto002/codecast), contém toda a documentação do   projeto da disciplina **Engenharia de Software III - Arquitetura e Design de Software**, ministrada pelo Professor **Cleber Araujo**, no **Instituto Federal do Piaui Campus Pedro II, durante o período de 2023/2**.
 
 <br />
 

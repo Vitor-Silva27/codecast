@@ -12,7 +12,7 @@
 # Requisitos Funcionais 
 |Código |Identificação |Classificação |Ator |Objetivo|
 |--------|--------------|--------------|--------|--------|
-|[RF01] |Cadastro de usuários |Essencial |Administrador| O sistema deve permitir o cadastro de usuários por meio de nome, endereço de email e senha.|
+|[RF01] |Cadastro de usuários |Essencial |Usuário| O sistema deve permitir o cadastro de usuários por meio de nome, endereço de email e senha.|
 |[RF02] |Realizar Login |Essencial |Usuário|O sistema deve permitir aos usuários efetuarem login em suas contas. |
 |[RF03] |Catálogo de vídeos |Importante |Sistema| O sistema deve ser organizado por catálogos de vídeos como (linguagem de programação, tendências, tutoriais, entre outras).|
 |[RF04] |Transmissão ao vivo |Essencial |Criador de conteúdo| O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.|
