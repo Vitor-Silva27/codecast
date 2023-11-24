@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/luisalberto002/codecast.git/identificacao/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Identificação do Projeto - Projeto de Arquitetura de Software</title>
+    <title>Identificação do Projeto - codecast</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Projeto de Arquitetura de Software
+          <a href=".." class="icon icon-home"> codecast
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -141,7 +141,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Projeto de Arquitetura de Software</a>
+          <a href="..">codecast</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -183,9 +183,6 @@
 <li>Explique as técnicas utilizadas para identificar os requisitos do Sistema</li>
 </ul>
 <h1 id="requisitos-funcionais">Requisitos Funcionais</h1>
-<ul>
-<li>Liste todos os requisitios funcionais identificados. </li>
-</ul>
 <table>
 <thead>
 <tr>
@@ -199,17 +196,217 @@
 <tbody>
 <tr>
 <td>[RF01]</td>
-<td>Efetuar Login</td>
+<td>Cadastro de usuários</td>
+<td>Essencial</td>
+<td>Usuário</td>
+<td>O sistema deve permitir o cadastro de usuários por meio de nome, endereço de email e senha.</td>
+</tr>
+<tr>
+<td>[RF02]</td>
+<td>Realizar Login</td>
+<td>Essencial</td>
+<td>Usuário</td>
+<td>O sistema deve permitir aos usuários efetuarem login em suas contas.</td>
+</tr>
+<tr>
+<td>[RF03]</td>
+<td>Catálogo de vídeos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve ser organizado por catálogos de vídeos como (linguagem de programação, tendências, tutoriais, entre outras).</td>
+</tr>
+<tr>
+<td>[RF04]</td>
+<td>Transmissão ao vivo</td>
+<td>Essencial</td>
+<td>Criador de conteúdo</td>
+<td>O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.</td>
+</tr>
+<tr>
+<td>[RF05]</td>
+<td>Perguntas anônimas</td>
+<td>Desejavél</td>
+<td>Sistema</td>
+<td>O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.</td>
+</tr>
+<tr>
+<td>[RF06]</td>
+<td>Sugestões de vídeos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve sugerir vídeos aos usuários com base no histórico do usuário.</td>
+</tr>
+<tr>
+<td>[RF07]</td>
+<td>Notificação de lançamento de vídeos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve ser capaz de notificar os inscritos do canal quando um novo vídeo for lançado ou uma nova live começar . Essas notificações devem ser entregues de forma imediata e eficaz, seja por meio de notificações push, emails ou qualquer outro método de comunicação apropriado.</td>
+</tr>
+<tr>
+<td>[RF08]</td>
+<td>Personalização de perfil e feed</td>
+<td>Essencial</td>
+<td>Usuário</td>
+<td>Os usuários devem ter a capacidade de personalizar seu perfil, incluindo a adição de uma foto de perfil e a personalização do feed de conteúdo, permitindo que eles adaptem a experiência de acordo com suas preferências individuais.</td>
+</tr>
+<tr>
+<td>[RF09]</td>
+<td>Interação com vídeos</td>
+<td>Essencial</td>
+<td>Usuário</td>
+<td>Os usuários devem poder interagir com os vídeos, incluindo a capacidade de curtir os vídeos que eles gostam. Além disso, devem ser fornecidas opções para compartilhar vídeos e adicionar comentários.</td>
+</tr>
+<tr>
+<td>[RF10]</td>
+<td>Monetização por anúncios e visualizações</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>O sistema deve incluir um sistema de monetização que permita a exibição de anúncios antes, durante ou após os vídeos, bem como a geração de receita com base nas visualizações dos vídeos.</td>
+</tr>
+<tr>
+<td>[RF11]</td>
+<td>Modelo de assinatura</td>
+<td>Desejável</td>
+<td>Sistema</td>
+<td>Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.</td>
+</tr>
+<tr>
+<td>[RF12]</td>
+<td>Restrição de conteúdo</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.</td>
+</tr>
+<tr>
+<td>[RF13]</td>
+<td>Controle de qualidade de vídeo</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>O sistema deve ser capaz de ajustar a qualidade dos vídeos de acordo com a velocidade da internet do usuário, garantindo uma experiência de visualização suave mesmo para aqueles com conexões de internet mais lentas. Isso pode incluir a entrega de diferentes resoluções de vídeo.</td>
+</tr>
+<tr>
+<td>[RF14]</td>
+<td>Legendas automáticas</td>
+<td>Desejável</td>
+<td>Sistema</td>
+<td>Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.</td>
+</tr>
+<tr>
+<td>[RF15]</td>
+<td>Interpretação de código</td>
+<td>Desejável</td>
+<td>Sistema</td>
+<td>A plataforma deve possuir um intérprete aos vídeos.</td>
+</tr>
+<tr>
+<td>[RF16]</td>
+<td>Suporte a vários idiomas</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>A plataforma deve suportar múltiplos idiomas para a interface do usuário e para a descrição dos vídeos.</td>
+</tr>
+<tr>
+<td>[RF17]</td>
+<td>Tutoriais para os criadores de conteúdo</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>Deve haver tutoriais para ajudar os criadores de conteúdo a produzirem vídeos conforme a plataforma e de alta qualidade.</td>
+</tr>
+<tr>
+<td>[RF18]</td>
+<td>Relatórios e análises</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>Os criadores de conteúdo devem ter acesso a informações detalhadas sobre o desempenho de seus canais, como visualizações, comentários e métricas de engajamento e inscritos.</td>
+</tr>
+<tr>
+<td>[RF19]</td>
+<td>Tela adicional para criadores de conteúdo</td>
+<td>Essencial</td>
+<td>Criador de conteúdo</td>
+<td>O sistema deve ter uma interface adicional para criadores de conteúdo.Deve haver uma distinção clara entre os usuários que criam conteúdo e os que apenas o consomem.</td>
+</tr>
+<tr>
+<td>[RF20]</td>
+<td>Usuário que só consome conteúdo pode se tornar criador</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>Deve ser possível para os usuários que inicialmente apenas consomem conteúdo se tornarem criadores de conteúdo sem criar uma nova conta.</td>
+</tr>
+<tr>
+<td>[RF21]</td>
+<td>Downloads de vídeos</td>
 <td>Importante</td>
 <td>Usuário</td>
-<td>Este caso de uso serve para o usuário entrar no sistema</td>
+<td>O sistema pode permitir que os usuários baixem os vídeos.</td>
+</tr>
+<tr>
+<td>[RF22]</td>
+<td>Restrição de download</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir ao criador deixar o vídeo disponível para o usuário fazer o download.</td>
+</tr>
+<tr>
+<td>[RF23]</td>
+<td>Salvamento de lives</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir ao criador salvar ou não as lives.</td>
+</tr>
+<tr>
+<td>[RF24]</td>
+<td>Conteúdos exclusivos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir ao criador de conteúdo fazer conteúdos exclusivos para assinantes</td>
+</tr>
+<tr>
+<td>[RF25]</td>
+<td>Agendamento de vídeos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir aos criadores agendarem os vídeos.</td>
+</tr>
+<tr>
+<td>[RF26]</td>
+<td>Filtro de conteúdo</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir aos usuários pesquisarem por conteúdos que desejam.</td>
+</tr>
+<tr>
+<td>[RF27]</td>
+<td>Canais inscritos</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir que os usuários vejam os canais que estão inscritos.</td>
+</tr>
+<tr>
+<td>[RF28]</td>
+<td>Histórico</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema deve permitir aos usuários visualizarem o histórico de vídeos assistidos</td>
+</tr>
+<tr>
+<td>[RF29]</td>
+<td>Penalizações por violações de diretrizes</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>O sistema deve ter penalizações para usuários que não sigam as diretrizes.</td>
+</tr>
+<tr>
+<td>[RF30]</td>
+<td>Ausência de anúncios para assinantes</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>O sistema deve bloquear anúncios para os assinantes.</td>
 </tr>
 </tbody>
 </table>
 <h1 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h1>
-<ul>
-<li>Liste todos os requisitios não-funcionais identificados.</li>
-</ul>
 <table>
 <thead>
 <tr>
@@ -223,10 +420,94 @@
 <tbody>
 <tr>
 <td>[RNF01]</td>
-<td>Efetuar Login</td>
+<td>Usabilidade</td>
+<td>Essencial</td>
+<td>Designer</td>
+<td>O sistema deve ser projetado com foco na usabilidade, proporcionando uma experiência de usuário intuitiva e agradável. Deve ser fácil de navegar e de entender, com interfaces de usuário amigáveis, eficientes e responsivas</td>
+</tr>
+<tr>
+<td>[RNF02]</td>
+<td>Escalabilidade e arquitetura</td>
+<td>Essencial</td>
+<td>Arquiteto</td>
+<td>O sistema deve ser projetado com escalabilidade em mente, garantindo que possa lidar com um aumento no número de usuários e conteúdos sem comprometer o desempenho. A arquitetura do sistema deve ser robusta e flexível</td>
+</tr>
+<tr>
+<td>[RNF03]</td>
+<td>Segurança da informação</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve implementar medidas de segurança eficazes para proteger as informações dos usuários, incluindo dados pessoais e de pagamento. Isso inclui criptografia de dados, autenticação segura e proteção contra ameaças cibernéticas</td>
+</tr>
+<tr>
+<td>[RNF04]</td>
+<td>Backup</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>Os vídeos e dados dos criadores de conteúdo devem ser periodicamente e automaticamente copiados e armazenados em backups para evitar perda de vídeos ou dados</td>
+</tr>
+<tr>
+<td>[RNF05]</td>
+<td>Suporte</td>
+<td>Essencial</td>
+<td>Equipe de Suporte</td>
+<td>A plataforma deve oferecer suporte técnico aos usuários para solucionar problemas e responder a perguntas.</td>
+</tr>
+<tr>
+<td>[RNF06]</td>
+<td>Atualizações contínuas</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>A plataforma deve ser atualizada regularmente.</td>
+</tr>
+<tr>
+<td>[RNF07]</td>
+<td>Conformidades com a legislação local</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve seguir a legislação do país em que se encontra</td>
+</tr>
+<tr>
+<td>[RNF08]</td>
+<td>Restrição ao uso de terceiros</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema não pode permitir o uso de conteúdo de outros criadores</td>
+</tr>
+<tr>
+<td>[RNF09]</td>
+<td>Disponibilidade</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve estar disponível 24h por dia</td>
+</tr>
+<tr>
+<td>[RNF10]</td>
+<td>Manutenibilidade</td>
 <td>Importante</td>
-<td>Usuário</td>
-<td>Este caso de uso serve para o usuário entrar no sistema</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve ser de fácil manutenibilidade para facilitar a correção de bugs.</td>
+</tr>
+<tr>
+<td>[RNF11]</td>
+<td>Desempenho</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve ser rápido para garantir que os usuários não fiquem esperando muito tempo para carregar as páginas.</td>
+</tr>
+<tr>
+<td>[RNF12]</td>
+<td>Compatibilidade</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve ser compatível com diversos dispositivos.</td>
+</tr>
+<tr>
+<td>[RNF13]</td>
+<td>Opções de pagamento de assinatura</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O sistema deve oferecer diversas maneiras de pagamento para os assinantes</td>
 </tr>
 </tbody>
 </table>
