@@ -110,7 +110,7 @@
 <br>
 
 # Técnicas de Elicatação de Requisitos
-- Explique as técnicas utilizadas para identificar os requisitos do Sistema
+A elicitação de requisitos é uma etapa crucial no processo de desenvolvimento, pois é nesse momento que as necessidades docliente são identificadas e compreendidas. A principal técnica utilizada foi a entrevista semi-aberta com cliente, onde foi possivel identificar os requisitos mais importantes, além de um questionário aplicado com o mesmo, sendo possivel identificar alguns requisitos que passaram despercebidos.
 
 # Requisitos Funcionais 
 |Código |Identificação |Classificação |Ator |Objetivo|
