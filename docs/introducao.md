@@ -12,6 +12,7 @@ Este documento tem como finalidade esclarecer e detalhar os requisitos fundament
 
 #### Definições, Acrônimos e Abreviações:
 **Definições:**
+
 - **CodeCast:** Nome da plataforma de streaming de vídeos.
 - **Live Coding:** Prática de programar ao vivo para uma audiência.
 
