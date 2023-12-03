@@ -1,9 +1,21 @@
 # Linguagem
 
 #### Escolha da Linguagem
-Para o desenvolvimento do software, a equipe optou por utilizar uma combinação de linguagens de programação que atendem às necessidades específicas do projeto. No front-end, optou -se pela escolha de Typescript, juntamente com React, uma biblioteca amplamente reconhecida por sua eficiência na construção de interfaces de usuário dinâmicas e interativas. Já no back-end, a equipe decidiu adotar tanto a linguagem Python e Typescript quanto outras linguagens que serão utilizadas nos microserviços.
+Para o desenvolvimento do software, a equipe optou por utilizar uma combinação de linguagens de programação que atendem às necessidades específicas do projeto. Dentre elas estão:
 
-Para a arquitetura em microserviços do sistema, a equipe optou por adotar principalmente TypeScript como a linguagem principal de desenvolvimento. Essa escolha visa promover uma base sólida para a construção de microserviços, priorizando a consistência e manutenibilidade do código.
+- **TypeScript**
+- **Python**
+- **Kotlin**
+- **HTML - Linguagem de marcação**
+- **CSS - Folha de estilização**
+
+**TypeScript:** Será utilizado tanto para back-end quanto para front-end, em conjunto com o framework React.
+
+**HTML e CSS:** Será utilizada para criar todo o corpo e design do sistema.
+
+**Python e Kotlin:** Ambas serão utilizadas para o back-end em conjunto com TypeScript.
+
+Por se tratar de uma arquitetura em microserviços, poderão ser adotadas outras linguagens pelo desenvolvedor a depender do propósito. Essa escolha visa promover uma base sólida para a construção de microserviços, priorizando a consistência e manutenibilidade do código.
 
 #### Critérios de Escolha 
 Os critérios para a escolha das linguagens foram definidos com base em alguns fatores, incluindo:

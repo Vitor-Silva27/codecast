@@ -1,4 +1,4 @@
-# Gerenciamento de Riscos
+# Referências
 - [Relacione aqui referências a documentos, sítios na Internet, manuais ou qualquer outro item que tenha sido usado para a confecção do presente artefato.]
 
 # Depois exlcuir
@@ -41,7 +41,7 @@ Repositório que deve ser utilizado como template inicial pelos grupos da Discip
         return a + b
 ```
 
-Emoji - :snake: :heart::rocket:
+Emoji - :snake: :heart: :rocket:
 
 > "Essa é uma citação"
 

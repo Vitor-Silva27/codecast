@@ -30,4 +30,17 @@ Este documento é destinado a desenvolvedores de software, arquitetos de sistema
 #### Uso do Documento:
 Os desenvolvedores podem utilizar este documento como referência para entender os requisitos arquiteturais do sistema CodeCast. Arquitetos de sistemas podem usá-lo como base para tomar decisões fundamentadas.
 #### Resumo da Arquitetura:
-A arquitetura do CodeCast é centrada em proporcionar uma experiência de streaming imersiva, interativa e educacional para uma audiência diversificada interessada em desenvolvimento e tecnologia. Os principais componentes incluem transmissões ao vivo, interatividade com espectadores, variedade de conteúdo, agendamento e notificações, além de recursos educacionais. Essas características essenciais são implementadas para criar uma plataforma inovadora no campo de streaming conteúdo tecnológico.
+A arquitetura do projeto é fundamentada no paradigma de microserviços, adotando uma abordagem distribuída para oferecer uma plataforma de streaming de vídeos e transmissões ao vivo relacionadas à programação.
+
+**Principais Componentes**
+
+- **Microserviços:** Desenvolvidos principalmente em TypeScript, os microserviços são projetados para interagir de maneira eficaz, promovendo escalabilidade e manutenção eficientes.
+
+- **Comunicação entre Microserviços:** Utilização de chamadas de API REST para estabelecer a comunicação entre os diferentes serviços. Adoção de mensageria assíncrona, possivelmente implementada com tecnologias como RabbitMQ ou Kafka, para garantir eficiência em cenários assíncronos.
+
+- **Protocolos e APIs:** Predominância do protocolo HTTP, seguindo os princípios REST, para padronizar a comunicação entre os componentes. Exploração de protocolos de mensageria, como AMQP, para comunicação assíncrona.
+
+- **Segurança:** Implementação de práticas robustas de segurança, abrangendo a segurança da comunicação entre microserviços, o uso de contêineres seguros e a proteção de segredos, utilizando ferramentas como HashiCorp Vault, Microsoft Azure Key Vault ou Amazon KMS.
+
+- **Orquestração de Containers:** Possível utilização de tecnologias como Docker ou Kubernetes para orquestrar contêineres, garantindo uma abordagem dinâmica para dimensionar recursos conforme necessário.
+- **Desempenho e Escalabilidade:** Adoção de estratégias para otimização de desempenho e escalabilidade, visando uma arquitetura flexível e preparada para atender às demandas específicas da plataforma.
