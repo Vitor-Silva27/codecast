@@ -1,22 +1,22 @@
 # Prototipação de Baixa Fidelidade
 <div align="center">
   <img src="../img/Baixa-fidelidade-home.png">
-  <p>Tela inicial.</p>
+  <p>(Tela inicial)</p>
 </div>
 
 <div align="center">
   <img src="../img/Baixa-fidelidade-Video.png">
-  <p>Tela de video.</p>
+  <p>(Tela de video)</p>
 </div>
 
 <div align="center">
   <img src="../img/Baixa-fidelidade-Live.png">
-  <p>Tela de gravação de live.</p>
+  <p>(Tela de gravação de live)</p>
 </div>
 
 <div align="center">
   <img src="../img/Baixa-fidelidade-Por-tecnologia.png">
-  <p>Tela de categoria por tecnologia.</p>
+  <p>(Tela de categoria por tecnologia)</p>
 </div>
 
 

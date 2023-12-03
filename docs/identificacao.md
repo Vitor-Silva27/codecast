@@ -2,7 +2,7 @@
 
 |Projeto | Requisitante | Gerente de Projetos|
 | -------| ------------ | -------------------|
-|        |              |                    |
+| CodeCast |              |                    |
 
 # Brainstorming 
 <details>
@@ -102,9 +102,8 @@
         <li>Desenolvimento do protótipo</li>
     </ol>
     <h2>Imagens:</h2>
-    <img src=>
-    <img src="./img/fotoReuniao01.jpg">
-    <img src="./img/fotoReuniao02.jpg">
+    <img src="../img/fotoReuniao01.jpg" style="height: 400px">
+    <img src="../img/fotoReuniao02.jpg" style="height: 400px">
 </details>
 
 <br>
@@ -119,7 +118,7 @@ A elicitação de requisitos é uma etapa crucial no processo de desenvolvimento
 |[RF02] |Realizar Login |Essencial |Usuário|O sistema deve permitir aos usuários efetuarem login em suas contas. |
 |[RF03] |Catálogo de vídeos |Importante |Sistema| O sistema deve ser organizado por catálogos de vídeos como (linguagem de programação, tendências, tutoriais, entre outras).|
 |[RF04] |Transmissão ao vivo |Essencial |Criador de conteúdo| O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.|
-|[RF05] |Perguntas anônimas |Desejavél |Sistema| O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.|
+|[RF05] |Perguntas anônimas |Desejavél |Usuário| O sistema deve permitir que os usuários possam fazer perguntas anônimas. |
 |[RF06] |Sugestões de vídeos |Importante |Sistema|O sistema deve sugerir vídeos aos usuários com base no histórico do usuário.|
 |[RF07] |Notificação de lançamento de vídeos |Importante |Sistema|O sistema deve ser capaz de notificar os inscritos do canal quando um novo vídeo for lançado ou uma nova live começar . Essas notificações devem ser entregues de forma imediata e eficaz, seja por meio de notificações push, emails ou qualquer outro método de comunicação apropriado.|
 |[RF08] |Personalização de perfil e feed |Essencial |Usuário|Os usuários devem ter a capacidade de personalizar seu perfil, incluindo a adição de uma foto de perfil e a personalização do feed de conteúdo, permitindo que eles adaptem a experiência de acordo com suas preferências individuais.|

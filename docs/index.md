@@ -8,7 +8,7 @@ Este repositório é destinado ao grupo Archighosts - [**CodeCast**](https://git
 
 <br />
 
-# Nome da Empresa de Desenvolvimento
+# Archighosts
 ### Sobre a Empresa
 A empresa responsável pelo desenvolvimento do deste projeto é a "Archighost", uma equipe dedicada à inovação e excelência no campo da tecnologia. Apesar de ser uma equipe fictícia para os propósitos acadêmicos, a Archighost utiliza uma abordagem ágil e se compromete em fornecer soluções de software de alta qualidade.
 
