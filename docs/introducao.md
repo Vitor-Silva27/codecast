@@ -16,9 +16,6 @@ Este documento tem como finalidade esclarecer e detalhar os requisitos fundament
 - **CodeCast:** Nome da plataforma de streaming de vídeos.
 - **Live Coding:** Prática de programar ao vivo para uma audiência.
 
-
-- Lista de termos técnicos com suas definições.
-- Acrônimos e abreviações com suas expansões.
 #### Referências:
 - Documentos ou fontes consultadas durante a criação da arquitetura.
 - Padrões ou recursos relevantes.
