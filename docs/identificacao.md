@@ -2,7 +2,7 @@
 
 |Projeto | Requisitante | Gerente de Projetos|
 | -------| ------------ | -------------------|
-|        |              |                    |
+| CodeCast |              |                    |
 
 # Brainstorming 
 <details>
@@ -102,8 +102,8 @@
         <li>Desenolvimento do protótipo</li>
     </ol>
     <h2>Imagens:</h2>
-    <img src="../img/fotoReuniao01.jpg" style="height: 500px">
-    <img src="../img/fotoReuniao02.jpg" style="height: 500px">
+    <img src="../img/fotoReuniao01.jpg" style="height: 400px">
+    <img src="../img/fotoReuniao02.jpg" style="height: 400px">
 </details>
 
 <br>
