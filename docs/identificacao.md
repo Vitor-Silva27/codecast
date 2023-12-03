@@ -119,31 +119,30 @@ A elicitação de requisitos é uma etapa crucial no processo de desenvolvimento
 |[RF03] |Catálogo de vídeos |Importante |Sistema| O sistema deve ser organizado por catálogos de vídeos como (linguagem de programação, tendências, tutoriais, entre outras).|
 |[RF04] |Transmissão ao vivo |Essencial |Criador de conteúdo| O sistema deve permitir a transmissão ao vivo de podcasts e outros eventos.|
 |[RF05] |Perguntas anônimas |Desejavél |Usuário| O sistema deve permitir que os usuários possam fazer perguntas anônimas. |
-|[RF06] |Sugestões de vídeos |Importante |Sistema|O sistema deve sugerir vídeos aos usuários com base no histórico do usuário.|
+|[RF06] |Sugestões de vídeos |Importante |Sistema|O sistema deve permitir aos usuários fazerem perguntas aos criadores de conteúdo sem serem expostos.|
 |[RF07] |Notificação de lançamento de vídeos |Importante |Sistema|O sistema deve ser capaz de notificar os inscritos do canal quando um novo vídeo for lançado ou uma nova live começar . Essas notificações devem ser entregues de forma imediata e eficaz, seja por meio de notificações push, emails ou qualquer outro método de comunicação apropriado.|
 |[RF08] |Personalização de perfil e feed |Essencial |Usuário|Os usuários devem ter a capacidade de personalizar seu perfil, incluindo a adição de uma foto de perfil e a personalização do feed de conteúdo, permitindo que eles adaptem a experiência de acordo com suas preferências individuais.|
 |[RF09] |Interação com vídeos |Essencial |Usuário|Os usuários devem poder interagir com os vídeos, incluindo a capacidade de curtir os vídeos que eles gostam. Além disso, devem ser fornecidas opções para compartilhar vídeos e adicionar comentários.|
 |[RF10] |Monetização por anúncios e visualizações |Essencial |Sistema|O sistema deve incluir um sistema de monetização que permita a exibição de anúncios antes, durante ou após os vídeos, bem como a geração de receita com base nas visualizações dos vídeos.|
 |[RF11] |Modelo de assinatura |Desejável |Sistema|Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.|
-|[RF12] |Restrição de conteúdo |Essencial |Sistema|Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.|
-|[RF13] |Controle de qualidade de vídeo |Essencial |Sistema|O sistema deve ser capaz de ajustar a qualidade dos vídeos de acordo com a velocidade da internet do usuário, garantindo uma experiência de visualização suave mesmo para aqueles com conexões de internet mais lentas. Isso pode incluir a entrega de diferentes resoluções de vídeo.|
-|[RF14] |Legendas automáticas |Desejável |Sistema|Deve ser implementado um modelo de assinatura que permita aos usuários pagar uma quantia específica para ter acesso a conteúdos exclusivos e à comunidade de um canal. Os usuários que pagam devem receber destaque e benefícios adicionais.|
-|[RF15] |Interpretação de código |Desejável |Sistema|A plataforma deve possuir um intérprete aos vídeos.|
-|[RF16] |Suporte a vários idiomas |Importante |Sistema|A plataforma deve suportar múltiplos idiomas para a interface do usuário e para a descrição dos vídeos.|
-|[RF17] |Tutoriais para os criadores de conteúdo |Importante |Sistema|Deve haver tutoriais para ajudar os criadores de conteúdo a produzirem vídeos conforme a plataforma e de alta qualidade.|
-|[RF18] |Relatórios e análises |Importante  |Sistema|Os criadores de conteúdo devem ter acesso a informações detalhadas sobre o desempenho de seus canais, como visualizações, comentários e métricas de engajamento e inscritos.|
-|[RF19] |Tela adicional para criadores de conteúdo |Essencial |Criador de conteúdo|O sistema deve ter uma interface adicional para criadores de conteúdo.Deve haver uma distinção clara entre os usuários que criam conteúdo e os que apenas o consomem.|
-|[RF20] |Usuário que só consome conteúdo pode se tornar criador |Essencial |Sistema|Deve ser possível para os usuários que inicialmente apenas consomem conteúdo se tornarem criadores de conteúdo sem criar uma nova conta.|
-|[RF21] |Downloads de vídeos |Importante |Usuário|O sistema pode permitir que os usuários baixem os vídeos.|
-|[RF22] |Restrição de download |Importante |Sistema|O sistema deve permitir ao criador deixar o vídeo disponível para o usuário fazer o download.|
-|[RF23] |Salvamento de lives |Importante  |Sistema|O sistema deve permitir ao criador salvar ou não as lives.|
-|[RF24] |Conteúdos exclusivos |Importante |Sistema|O sistema deve permitir ao criador de conteúdo fazer conteúdos exclusivos para assinantes|
-|[RF25] |Agendamento de vídeos|Importante  |Sistema|O sistema deve permitir aos criadores agendarem os vídeos.|
-|[RF26] |Filtro de conteúdo|Importante |Sistema|O sistema deve permitir aos usuários pesquisarem por conteúdos que desejam.|
-|[RF27] |Canais inscritos|Importante |Sistema|O sistema deve permitir que os usuários vejam os canais que estão inscritos.|
-|[RF28] |Histórico|Importante |Sistema|O sistema deve permitir aos usuários visualizarem o histórico de vídeos assistidos|
-|[RF29] |Penalizações por violações de diretrizes|Essencial |Sistema|O sistema deve ter penalizações para usuários que não sigam as diretrizes.|
-|[RF30] |Ausência de anúncios para assinantes|Essencial |Sistema|O sistema deve bloquear anúncios para os assinantes. |
+|[RF12] |Controle de qualidade de vídeo |Essencial |Sistema|O sistema deve ser capaz de ajustar a qualidade dos vídeos de acordo com a velocidade da internet do usuário, garantindo uma experiência de visualização suave mesmo para aqueles com conexões de internet mais lentas. Isso pode incluir a entrega de diferentes resoluções de vídeo.|
+|[RF13] |Legendas automáticas |Desejável |Sistema|É desejável que o sistema seja capaz de gerar legendas automáticas para os vídeos, tornando o conteúdo acessível a um público mais amplo, incluindo pessoas com deficiência auditiva.|
+|[RF14] |Interpretação de código |Desejável |Sistema|A plataforma deve possuir um intérprete aos vídeos.|
+|[RF15] |Suporte a vários idiomas |Importante |Sistema|A plataforma deve suportar múltiplos idiomas para a interface do usuário e para a descrição dos vídeos.|
+|[RF16] |Tutoriais para os criadores de conteúdo |Importante |Sistema|Deve haver tutoriais para ajudar os criadores de conteúdo a produzirem vídeos conforme a plataforma e de alta qualidade.|
+|[RF17] |Relatórios e análises |Importante  |Sistema|Os criadores de conteúdo devem ter acesso a informações detalhadas sobre o desempenho de seus canais, como visualizações, comentários e métricas de engajamento e inscritos.|
+|[RF18] |Tela adicional para criadores de conteúdo |Essencial |Criador de conteúdo|O sistema deve ter uma interface adicional para criadores de conteúdo.Deve haver uma distinção clara entre os usuários que criam conteúdo e os que apenas o consomem.|
+|[RF19] |Usuário que só consome conteúdo pode se tornar criador |Essencial |Sistema|Deve ser possível para os usuários que inicialmente apenas consomem conteúdo se tornarem criadores de conteúdo sem criar uma nova conta.|
+|[RF20] |Downloads de vídeos |Importante |Usuário|O sistema pode permitir que os usuários baixem os vídeos.|
+|[RF21] |Restrição de download |Importante |Sistema|O sistema deve permitir ao criador deixar o vídeo disponível para o usuário fazer o download.|
+|[RF22] |Salvamento de lives |Importante  |Sistema|O sistema deve permitir ao criador salvar ou não as lives.|
+|[RF23] |Conteúdos exclusivos |Importante |Sistema|O sistema deve permitir ao criador de conteúdo fazer conteúdos exclusivos para assinantes|
+|[RF24] |Agendamento de vídeos|Importante  |Sistema|O sistema deve permitir aos criadores agendarem os vídeos.|
+|[RF25] |Filtro de conteúdo|Importante |Sistema|O sistema deve permitir aos usuários pesquisarem por conteúdos que desejam.|
+|[RF26] |Canais inscritos|Importante |Sistema|O sistema deve permitir que os usuários vejam os canais que estão inscritos.|
+|[RF27] |Histórico|Importante |Sistema|O sistema deve permitir aos usuários visualizarem o histórico de vídeos assistidos|
+|[RF28] |Penalizações por violações de diretrizes|Essencial |Sistema|O sistema deve ter penalizações para usuários que não sigam as diretrizes.|
+|[RF29] |Ausência de anúncios para assinantes|Essencial |Sistema|O sistema deve bloquear anúncios para os assinantes. |
 
 # Requisitos Não Funcionais 
 |Código  |Identificação |Classificação |Ator |Objetivo|
