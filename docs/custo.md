@@ -1,20 +1,23 @@
 # Plano de Gerenciamento de Custos
 
 ## Introdução
-- Descrição breve do objetivo do plano de gerenciamento de custos no contexto do projeto.
+- O Plano de Gerenciamento de Custos é uma parte essencial do processo de planejamento do projeto, fornecendo uma estrutura para estimar, orçar, controlar e reportar os custos associados à execução das atividades planejadas do projeto.
 
 ## Estimativa de Custo
-- Descrição da metodologia e critérios utilizados para estimar os custos do projeto.
+- A metodologia utilizada para estimar os custos do projeto é baseada na análise detalhada das atividades planejadas, considerando os requisitos específicos de cada fase. A equipe de gerenciamento de custos utilizará técnicas de estimativa analítica, considerando dados históricos e a experiência dos membros da equipe.
 
 ## Custo de Aquisição
-- Detalhamento dos custos de aquisição, incluindo equipamentos, espaço de trabalho, transporte, alimentação e outros.
+- O detalhamento dos custos de aquisição abrange diversos aspectos, como equipamentos, espaço de trabalho, transporte e alimentação.
 
 ## Custo Pessoal
-- Detalhamento dos custos relacionados ao pessoal envolvido no projeto, incluindo a equipe de desenvolvimento.
+- Os custos relacionados à equipe de desenvolvimento são fundamentais para a estimativa global. A tabela abaixo apresenta uma visão geral dos custos relacionados à equipe, incluindo salários mensais, tempo de execução do projeto e os valores totais correspondentes:
 
 | Função                  | Quantidade | Salário     | Valor mensal total | Tempo de execução do projeto | Valor Total   |
 |-------------------------|------------|------------|---------------------|------------------------------|---------------|
-| Equipe de desenvolvimento | 7          | R$ 6.818     | R$ 43.267            | 4                            | R$ 173.068    |
+| Arquiteto de Software | 1          | R$ 15.458     | R$ 15.458            | 7                            | R$ 108.206    |
+| Desenvolvedor Sênior | 1          | R$ 17.348     | R$ 17.348            | 7                            | R$ 121.436    |
+| Gerente de Qualidade | 1          | R$ 14.945     | R$ 14.945            | 7                            | R$ 104.615    |
+| Analista de Requisitos | 1          | R$ 14.648     | R$ 14.648            | 7                            | R$ 102.536    |
 
 
 ## Ferramentas
@@ -22,9 +25,12 @@
 
 | Produto/Equipamento | Quantidade | Valor Unitário | Valor mensal | Tempo de execução do projeto | Valor Total |
 |---------------------|------------|----------------|--------------|-------------------------------|-------------|
-| Notebook            | 7          | R$ 4.999,90    | -            | -                             | R$ 34.999,3 |
-| Internet            | 7          | R$ 129,99      | R$ 909,93    | 4                           | R$ 3.639,72  |
-| Total               | -          | -              | -            | -                           | R$ 38.639,02 |
+| Notebook            | 4          | R$ 6.849,45    | -            | -                             | R$ 27.397,80 |
+| Internet            | 1          | R$ 349,99      | R$ 349,99    | 7                           | R$ 2.449,93  |
+| Escritório | 1 | R$ 4.584 | R$ 4.584 | 7 | R$ 32.088 |
+| Vale Transporte | 4 | R$ 180 | R$ 1.690 | 7 | R$ 5.040 |
+| Vale Alimentação | 4 | R$ 400 | R$ 2750 | 7 | R$ 11.200 |
+| Total               | -          | -              | -            | -                           | R$ 78.175,73 |
 
 
 ## Custo Total do Projeto
@@ -32,13 +38,13 @@
 
 | Custo                       | Valor          |
 |-----------------------------|-----------------|
-| Custo Pessoal              | R$ 173.068      |
-| Ferramentas                | R$ 38.639,02    |
-| 20% de Riscos              | R$ 42.221,404   |
-| 60% de Lucro               | R$ 126.664,212  |
-| Valor total do projeto     | R$ 380.592,636  |
+| Custo Pessoal              | R$ 436.793      |
+| Ferramentas                | R$ 78.175,73    |
+| 20% de Riscos              | R$ 102.993,746   |
+| 60% de Lucro               | R$ 308.981,228  |
+| Valor total do projeto     | R$ 926.943,704  |
 
 
 ## Referências
-- Lista de fontes ou referências utilizadas para embasar as estimativas de custo.
+- Este plano de gerenciamento de custos foi elaborado considerando as melhores práticas de gestão de projetos, com base nas diretrizes do PMBOK (Project Management Body of Knowledge).
 
