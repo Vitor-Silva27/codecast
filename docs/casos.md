@@ -2,16 +2,16 @@
 
 - **Seleção de Casos de Uso:**
 ## Login:
-<img src="./img/DCU_Login.png" style="height: 400px">
+<img src="./img/DCU_Login.png" style="height: 400px width:400px" >
 
 ## Personalizar perfil:
-<img src="./img/DCUso_PersonalizarPerf.png" style="height: 400px">
+<img src="./img/DCUso_PersonalizarPerf.png" style="height: 400px width:400px">
 
 ## Interagir com Videos:
-<img src="./img/DCUso_InteragirVideo.png" style="height: 400px">
+<img src="./img/DCUso_InteragirVideo.png" style="height: 400px width:400px">
 
 ## Transmissão ao vivo:
-<img src="./img/DCUso_Transmissão.png" style="height: 400px">
+<img src="./img/DCUso_Transmissão.png" style="height: 400px width:400px">
 
 
 - **Critérios de Seleção:** Os diagramas de caso de uso utilizados foram escolhidos por suas importâncias no desenvolvimento da aplicação
