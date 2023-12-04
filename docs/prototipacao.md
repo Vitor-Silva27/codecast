@@ -21,7 +21,7 @@
 
 
 # Vídeo do Protótipo
-- [Insira um link ou anexe um vídeo que demonstre todas as funcionalidades e ações do protótipo.]
+- 
 
 # Prototipação de Alta Fidelidade
 
