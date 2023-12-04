@@ -20,14 +20,19 @@
 </div>
 
 
-# Vídeo do Protótipo
-- 
+# Link do Vídeo do Protótipo
+- https://youtu.be/AHpwIsztfwE
 
 # Prototipação de Alta Fidelidade
 
 <div align="center">
   <img src="../img/telas/loading.png">
   <p>(Tela de carregamento)</p>
+</div>
+
+<div align="center">
+  <img src="../img/telas/login.png">
+  <p>(Tela de login)</p>
 </div>
 
 <div align="center">
@@ -113,4 +118,19 @@
 <div align="center">
   <img src="../img/telas/Estatisticas.png">
   <p>(Página de estatisticas de criador dark)</p>
+</div>
+
+<div align="center">
+  <img src="../img/telas/Comunidade.png">
+  <p>(Página de Comunidade dark)</p>
+</div>
+
+<div align="center">
+  <img src="../img/telas/Live-criador.png">
+  <p>(Página de Live na visão de criador dark)</p>
+</div>
+
+<div align="center">
+  <img src="../img/telas/Meus-ganhos.png">
+  <p>(Página de ganhos de criador dark)</p>
 </div>
