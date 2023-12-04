@@ -24,9 +24,3 @@ A equipe de desenvolvimento é composta por quatro profissionais especializados 
 |<img src="./img/FotoJoao.jpeg" width="50" height="50">| 2022123TADS0063 | João Vitor | Desenvolvedor Sênior | [João Vitor](https://github.com/vitor-Silva27)| ps.joaovitor27@gmail.com |
 |<img src="./img/fotoLucas.jpg" width="50" height="50">| 2022123TADS0128 | Lucas Eduardo | Analista de requisitos | [Lucas Eduardo](https://github.com/LucaSoare)|lucas.soares.oliveira.p2@gmail.com|
 |<img src="./img/FotoAlan.jpeg" width="50" height="50">| 2022123TADS0195 | Alan Manoel | Gerente de qualidade | [Alan Manoel](https://github.com/AlanManoel)|alanmanoel517@gmail.com|
-
-
-# Histórico de Revisões
-|Versão | Data | Descrição | Autor | 
-|-----|-----------|------|--------|
-| 1.0  | 01/10/2023 | Adicionado Tela de Login| Cleber Araujo |
