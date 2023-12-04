@@ -20,35 +20,46 @@
 Este repositório inclui um documento abrangente que oferece uma visão detalhada da arquitetura do sistema destinado ao streaming de vídeos e transmissão ao vivo de conteúdo relacionado à programação. Elaborado como um recurso orientador para desenvolvedores de software, o guia visa documentar de maneira clara e abrangente os requisitos essenciais necessários para a bem-sucedida construção deste sistema inovador. Este trabalho foi realizado no âmbito da disciplina de Engenharia de Software III, sob a supervisão do professor Cleber Araujo.
 
 ## Screenshots
-![Screenshot 1](URL_da_Imagem_1)
-![Screenshot 2](URL_da_Imagem_2)
-![Screenshot 3](URL_da_Imagem_3)
+*Tela de Login* <img src="./docs/img/telas/Login.png">
+*Tela de inicio dos usuários* <img src="./docs/img/telas/Home.png">
 
 ## Instalação
-**Linguagens:** xxxxxx  
-**Tecnologias:** xxxxxx
-
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários. Insira um manual ou um script para auxiliar ainda mais.
+**Linguagens:** 
+- TypeScript
+- Python
 
 ## Uso
-Explique como usar o seu projeto, caso haja algum passo a passo após o comando de execução.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/luisalberto002/codecast.git
+    ```
+
+2. Navegue até o diretório clonado:
+    ```bash
+    cd codecast
+    ```
+
+3. Inicie o servidor do MkDocs:
+    ```bash
+    mkdocs serve
+    ```
 
 ## Vídeo
-Adicione 1 ou mais vídeos demonstrando a execução do projeto final.
+https://youtu.be/AHpwIsztfwE
 
 ## Principal(is) Metodologia(s) Adotada(s)
-- Exemplo.: Scrum
+- Scrum
 
 ## Principais Linguagens Utilizadas e/ou Pretendidas
-- Exemplo.:JavaScript
-- Exemplo.: Python
+- Typescript
+- Python
 
 ## Principais Tecnologias Utilizadas e/ou Pretendidas
-- Exemplo: React
-- Exemplo: Django
+- React
+- Flask
 
 ## Principal(is) Estilo(s) Arquitetural(is) Adotado(s)
-- Exemplo: MTV - Model Template View
+- Microserviços
 
 ## O Projeto está rodando?
 ( ) SIM (x) NÃO
