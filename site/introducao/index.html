@@ -203,7 +203,26 @@
 <h4 id="uso-do-documento">Uso do Documento:</h4>
 <p>Os desenvolvedores podem utilizar este documento como referência para entender os requisitos arquiteturais do sistema CodeCast. Arquitetos de sistemas podem usá-lo como base para tomar decisões fundamentadas.</p>
 <h4 id="resumo-da-arquitetura">Resumo da Arquitetura:</h4>
-<p>A arquitetura do CodeCast é centrada em proporcionar uma experiência de streaming imersiva, interativa e educacional para uma audiência diversificada interessada em desenvolvimento e tecnologia. Os principais componentes incluem transmissões ao vivo, interatividade com espectadores, variedade de conteúdo, agendamento e notificações, além de recursos educacionais. Essas características essenciais são implementadas para criar uma plataforma inovadora no campo de streaming conteúdo tecnológico.</p>
+<p>A arquitetura do projeto é fundamentada no paradigma de microserviços, adotando uma abordagem distribuída para oferecer uma plataforma de streaming de vídeos e transmissões ao vivo relacionadas à programação.</p>
+<p><strong>Principais Componentes</strong></p>
+<ul>
+<li>
+<p><strong>Microserviços:</strong> Desenvolvidos principalmente em TypeScript, os microserviços são projetados para interagir de maneira eficaz, promovendo escalabilidade e manutenção eficientes.</p>
+</li>
+<li>
+<p><strong>Comunicação entre Microserviços:</strong> Utilização de chamadas de API REST para estabelecer a comunicação entre os diferentes serviços. Adoção de mensageria assíncrona, possivelmente implementada com tecnologias como RabbitMQ ou Kafka, para garantir eficiência em cenários assíncronos.</p>
+</li>
+<li>
+<p><strong>Protocolos e APIs:</strong> Predominância do protocolo HTTP, seguindo os princípios REST, para padronizar a comunicação entre os componentes. Exploração de protocolos de mensageria, como AMQP, para comunicação assíncrona.</p>
+</li>
+<li>
+<p><strong>Segurança:</strong> Implementação de práticas robustas de segurança, abrangendo a segurança da comunicação entre microserviços, o uso de contêineres seguros e a proteção de segredos, utilizando ferramentas como HashiCorp Vault, Microsoft Azure Key Vault ou Amazon KMS.</p>
+</li>
+<li>
+<p><strong>Orquestração de Containers:</strong> Possível utilização de tecnologias como Docker ou Kubernetes para orquestrar contêineres, garantindo uma abordagem dinâmica para dimensionar recursos conforme necessário.</p>
+</li>
+<li><strong>Desempenho e Escalabilidade:</strong> Adoção de estratégias para otimização de desempenho e escalabilidade, visando uma arquitetura flexível e preparada para atender às demandas específicas da plataforma.</li>
+</ul>
               
             </div>
           </div><footer>
