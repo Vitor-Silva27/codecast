@@ -5,14 +5,17 @@ No âmbito da arquitetura do projeto, citaremos três camadas fundamentais que c
 ### Camadas da Arquitetura
 
 **Camada de Apresentação:**
-Esta camada concentra-se na interface do usuário e na interação direta com os clientes. 
+Esta camada concentra-se na interface do usuário e na interação direta com os clientes.
+
 - Aqui, os principais componentes incluem elementos visuais e lógica associada à apresentação de informações.
+
 - A regra fundamental desta camada é gerenciar exclusivamente a experiência do usuário, garantindo uma apresentação clara e acessível dos dados.
 
 **Camada de Lógica de Negócios:**
 Abriga os componentes responsáveis por processos e operações centrais. Aqui, definimos as regras de negócios, manipulação de dados e a lógica que governa o comportamento do sistema.
 
 **Componentes:**
+
 - **Autenticação de usuários:** Responsável por validar e autenticar usuários no sistema.
 - **Autorização de usuários:** Define as permissões e níveis de acesso para diferentes tipos de usuários.
 - **Regras:**
@@ -24,6 +27,7 @@ Restrições de acesso com base nos papéis atribuídos a cada usuário.
 A sustentação do sistema reside na Camada de Dados, onde os principais componentes estão associados ao armazenamento, recuperação e gerenciamento de dados. As regras nesta camada delineiam as operações de acesso aos dados e garantem a integridade e segurança das informações armazenadas.
 
 **Componentes:**
+
 - **Controlador de Acesso a Banco de Dados:** Gerencia a comunicação entre a aplicação e o banco de dados.
 - **Serviços de Cache:** Otimiza o desempenho armazenando em cache dados frequentemente acessados.
 - **Regras:**
