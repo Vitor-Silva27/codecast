@@ -107,6 +107,12 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Visão Lógica</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#subsistema-de-front-end">Subsistema de Front-end</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#subsistema-de-back-end">Subsistema de Back-end</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#subsistema-de-banco-de-dados">Subsistema de Banco de Dados</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -158,9 +164,33 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="visao-logica">Visão Lógica</h1>
+<p>Nesta visão lógica da arquitetura do projeto, destacamos as partes essenciais do modelo de design, delineando a divisão em subsistemas e pacotes que compõem a estrutura do sistema.</p>
+<h4 id="subsistema-de-front-end">Subsistema de Front-end</h4>
+<p>Este subsistema abrange a camada de apresentação do sistema, responsável por proporcionar a interface com o usuário. No contexto do projeto, a escolha predominante é a utilização de TypeScript e React. Dentro deste subsistema, identificamos pacotes específicos relacionados a diferentes componentes da interface de usuário.</p>
+<p><strong>Autenticação (Component)</strong>
+- <strong>Responsabilidades:</strong> Gerenciar processos de autenticação e autorização do usuário.
+- <strong>Relacionamentos:</strong> Comunica-se com o subsistema de Back-end para validar credenciais do usuário.</p>
+<p><strong>Controle De Vídeos (Component):</strong>
+- <strong>Responsabilidades:</strong> Gerenciar a exibição e interação com vídeos.
+- <strong>Relacionamentos:</strong> Envia solicitações ao Back-end para recuperar dados de vídeos específicos.</p>
+<h4 id="subsistema-de-back-end">Subsistema de Back-end</h4>
+<p>O subsistema de Back-end lida com a lógica de negócios, processamento de dados e interação com o banco de dados. Aqui, TypeScript é a linguagem predominante.</p>
+<p><strong>Gestão De Usuários (Módulo)</strong></p>
 <ul>
-<li>[Esta seção descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua divisão em subsistemas e pacotes. Além disso, para cada pacote significativo, ela mostra sua divisão em classes e  utilitários declasse. Apresente as classes significativas do ponto de vista da arquitetura e descreva suas responsabilidades, bem como alguns relacionamentos, operações e atributos de grande importância.]</li>
+<li><strong>Classes:</strong> Usuário, AutenticaçãoService</li>
+<li><strong>Responsabilidades:</strong> Gerenciar informações de usuários, autenticação e autorização.</li>
+<li><strong>Relacionamentos:</strong> Conecta-se ao banco de dados para recuperar e armazenar dados de usuários.</li>
 </ul>
+<p><strong>Conteúdo Multimídia (Módulo)</strong>
+- <strong>Classes:</strong> Vídeo, ComentárioService
+- <strong>Responsabilidades:</strong> Gerenciar conteúdo multimídia, como vídeos e comentários associados.
+Relacionamentos: Interage com o subsistema de Front-end para fornecer dados de vídeos e comentários.</p>
+<h4 id="subsistema-de-banco-de-dados">Subsistema de Banco de Dados</h4>
+<p>Este subsistema armazena e gerencia os dados persistentes do sistema, utilizando um banco de dados adequado às necessidades do projeto.</p>
+<p><strong>Modelos De Dados</strong>
+- <strong>Entidades:</strong> Usuário, Vídeo, Comentário
+- <strong>Responsabilidades:</strong> Definir estruturas de dados e relacionamentos para persistência.
+Esta visão lógica oferece uma compreensão clara da estrutura do sistema, destacando a organização em subsistemas, pacotes e classes, fornecendo uma base sólida para o desenvolvimento e manutenção do projeto.</p>
               
             </div>
           </div><footer>

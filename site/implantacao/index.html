@@ -115,6 +115,8 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Visão de Implantação</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#configuracao-de-implantacao-padrao">Configuração de Implantação Padrão</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -158,7 +160,40 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="visao-de-implantacao">Visão de Implantação</h1>
-<p>[Esta seção descreve uma ou mais configurações da rede física (hardware) na qual o software é implantado e executado. Ela é uma visão do Modelo de Implantação. No mínimo, para cada configuração, ela deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, etc.) É incluído também um mapeamento dos processos da Visão de Processos nos nós físicos.]</p>
+<p>Apresentamos as configurações da rede física onde o software será implantado e executado. A estrutura física reflete o Modelo de Implantação do projeto, identificando os nós físicos, como computadores e CPUs, que executarão o software, bem como suas interconexões.</p>
+<h4 id="configuracao-de-implantacao-padrao">Configuração de Implantação Padrão</h4>
+<p><strong>Nós Físicos</strong></p>
+<ul>
+<li><strong>Servidor Principal:</strong></li>
+<li><strong>Especificações:</strong> CPU de alto desempenho, armazenamento de grande capacidade.</li>
+<li>
+<p><strong>Funções:</strong> Hospeda o subsistema de Back-end e o banco de dados.</p>
+</li>
+<li>
+<p><strong>Servidor Front-end</strong></p>
+</li>
+<li><strong>Especificações:</strong> CPU de múltiplos núcleos.</li>
+<li>
+<p><strong>Funções:</strong> Responsável por executar o subsistema de Front-end e interagir com os clientes.</p>
+</li>
+<li>
+<p><strong>Servidor de Banco de Dados:</strong></p>
+</li>
+<li><strong>Especificações:</strong> CPU otimizada para consultas intensivas, armazenamento em disco de alta capacidade.</li>
+<li><strong>Funções:</strong> Executa o sistema de gerenciamento de banco de dados, armazenando e recuperando dados.</li>
+</ul>
+<p><strong>Interconexões</strong></p>
+<ul>
+<li>A comunicação entre o Servidor Front-end e o Servidor Principal ocorre por meio de uma rede local rápida para garantir uma resposta eficiente às solicitações do usuário.</li>
+<li>O Servidor Principal se conecta ao Servidor de Banco de Dados por meio de uma conexão dedicada de alta velocidade para otimizar as operações de leitura e gravação.</li>
+</ul>
+<p><strong>Mapeamento de Processos:</strong>
+- <strong>Subsistema de Front-end:</strong>
+  - O processo do Servidor Front-end executa as lógicas do Front-end, interagindo com os clientes e encaminhando solicitações ao Subsistema de Back-end.
+- <strong>Subsistema de Back-end:</strong>
+  - O Servidor Principal aloca processos para gerenciar autenticação, autorização, processamento de vídeo e interações com o banco de dados.
+- <strong>Banco de Dados:</strong>
+  - O Servidor de Banco de Dados executa processos relacionados ao armazenamento, recuperação e manipulação eficiente de dados persistidos.</p>
               
             </div>
           </div><footer>
