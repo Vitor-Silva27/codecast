@@ -44,8 +44,8 @@ Essas ferramentas foram escolhidas para proporcionar uma experiência de desenvo
 
 | Tarefa |Data  | Tarefa realizada |
 |-----|-----------|-----------|
-| Etapa 1 | 17/08/2023  |    Reunião com o requisitante do projeto        |
-| Etapa 2 |  02/09/2023 |   Definição dos requisitos       |
-| Etapa 3 | 25/09/2023  |   Criação da identidade visual        |
-| Etapa 4 | 20/09/2023  |   Elaboração da doumentação        |
-| Etapa 5 |  31/10/2023 |   Prototipação        |
+| Etapa 1 | 23/08/2023  |    Reunião com o requisitante do projeto        |
+| Etapa 2 |  05/09/2023 |   Definição dos requisitos       |
+| Etapa 3 | 14/09/2023  |   Criação da identidade visual        |
+| Etapa 4 | 28/09/2023  |   Elaboração da doumentação        |
+| Etapa 5 |  15/10/2023 |   Prototipação        |

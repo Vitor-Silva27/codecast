@@ -1,2 +1,2 @@
 # Anexos
-- [Relacione aqui eventuais documentos que fazem parte do presente artefato, tais como atas de reunião, cronograma e outros.]
+- <a href="https://youtu.be/AHpwIsztfwE">Video da prototipação</a> 
