@@ -83,6 +83,14 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Realizações de Casos de Uso</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#login">Login:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#personalizar-perfil">Personalizar perfil:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#interagir-com-videos">Interagir com Videos:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#transmissao-ao-vivo">Transmissão ao vivo:</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -108,10 +116,6 @@
               </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../logica/">Visão Lógica</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../processos/">Visão de Processos</a>
                 </li>
               </ul>
               <ul>
@@ -159,15 +163,79 @@
               
                 <h1 id="diagrama-de-caso-de-uso">Diagrama de Caso de Uso</h1>
 <ul>
-<li><strong>Seleção de Casos de Uso:</strong> Liste os Diagramas de Casos de Uso que são considerados arquiteturalmente significativos para o sistema (No mínimo 5).</li>
-<li><strong>Critérios de Seleção:</strong> Explique os critérios que levaram à seleção desses casos de uso.</li>
-<li><strong>Descrição de Casos de Uso:</strong> Forneça uma breve descrição de cada caso de uso, destacando sua importância arquitetural.</li>
-<li><strong>Pontos Complexos da Arquitetura:</strong> Identifique quais pontos complexos e específicos da arquitetura são enfatizados ou ilustrados por cada caso de uso.</li>
+<li><strong>Seleção de Casos de Uso:</strong></li>
+</ul>
+<h2 id="login">Login:</h2>
+<p><img src="../img/DCU_Login.png" style="height: 400px width:400px" ></p>
+<h2 id="personalizar-perfil">Personalizar perfil:</h2>
+<p><img src="../img/DCUso_PersonalizarPerf.png" style="height: 400px width:400px"></p>
+<h2 id="interagir-com-videos">Interagir com Videos:</h2>
+<p><img src="../img/DCUso_InteragirVideo.png" style="height: 400px width:400px"></p>
+<h2 id="transmissao-ao-vivo">Transmissão ao vivo:</h2>
+<p><img src="../img/DCUso_Transmissão.png" style="height: 400px width:400px"></p>
+<ul>
+<li><strong>Critérios de Seleção:</strong> Os diagramas de caso de uso utilizados foram escolhidos por suas importâncias no desenvolvimento da aplicação</li>
 </ul>
 <h1 id="cenarios">Cenários</h1>
-<ul>
-<li><strong>Crie o Cenário:</strong> Crie o cenário completo de ao menos 5 casos de uso. </li>
-</ul>
+<h2 id="login_1">Login:</h2>
+<h3 id="ator-principal-usuario">Ator Principal: Usuário</h3>
+<h3 id="objetivo">Objetivo:</h3>
+<p>Permitir que um usuário autentique-se no sistema, acessando sua conta com credenciais válidas.</p>
+<h3 id="pre-condicoes">Pré-condições:</h3>
+<p>O usuário possui uma conta registrada.</p>
+<h3 id="fluxo-principal-de-eventos">Fluxo Principal de Eventos:</h3>
+<p>O usuário acessa a tela de login do sistema.
+O sistema exibe campos para inserção de credenciais (por exemplo,e-mail e senha).
+O usuário insere suas credenciais.
+O usuário solicita o login.
+O sistema verifica as credenciais fornecidas.
+Se as credenciais são válidas, o sistema autentica o usuário.
+O sistema redireciona o usuário para a página inicial ou para a última página visitada.</p>
+<h2 id="personalizar-perfil_1">Personalizar perfil</h2>
+<h3 id="ator-principal-usuario_1">Ator Principal: Usuário</h3>
+<h3 id="objetivo_1">Objetivo:</h3>
+<p>Permitir que um usuário personalize seu perfil na plataforma.</p>
+<h3 id="pre-condicoes_1">Pré-condições:</h3>
+<p>O usuário está autenticado no sistema.</p>
+<h3 id="fluxo-principal-de-eventos_1">Fluxo Principal de Eventos:</h3>
+<p>O usuário acessa a seção de configurações de perfil.
+O sistema exibe opções de personalização, como foto de perfil, informações pessoais, etc.
+O usuário faz as alterações desejadas.
+O sistema valida e salva as alterações no perfil do usuário.
+O sistema confirma que as alterações foram realizadas com sucesso.</p>
+<h2 id="interagir-com-videos_1">Interagir com Vídeos</h2>
+<h3 id="ator-principal-usuario_2">Ator Principal: Usuário</h3>
+<h3 id="objetivo_2">Objetivo:</h3>
+<p>Permitir que um usuário interaja com vídeos na plataforma, incluindo visualização, comentários e ação sobre os vídeos.</p>
+<h3 id="pre-condicoes_2">Pré-condições:</h3>
+<p>O usuário está autenticado no sistema.
+Existir vídeos disponíveis na plataforma.</p>
+<h3 id="fluxo-principal-de-eventos_2">Fluxo Principal de Eventos:</h3>
+<p>O usuário navega até a seção de vídeos na plataforma.
+O sistema exibe uma lista de vídeos disponíveis, com miniaturas e informações relevantes.
+O usuário seleciona um vídeo para visualização.
+O sistema reproduz o vídeo na interface do usuário.
+O usuário assiste ao vídeo e pode pausar, retroceder ou avançar.
+O usuário pode adicionar um comentário ao vídeo.
+O usuário pode expressar sua apreciação ou desagrado pelo vídeo.
+O usuário pode compartilhar o vídeo. 
+O sistema atualiza as estatísticas do vídeo com base na interação dos usuários.</p>
+<h2 id="transmissao-ao-vivo_1">Transmissão ao Vivo</h2>
+<h3 id="ator-principal">Ator Principal:</h3>
+<p>Criador de conteúdo</p>
+<h3 id="objetivo_3">Objetivo:</h3>
+<p>Permitir que um  criador de conteúdo inicie e gerencie uma transmissão ao vivo na plataforma.</p>
+<h3 id="pre-condicoes_3">Pré-condições:</h3>
+<p>O Criador de conteúdo está autenticado no sistema.</p>
+<h3 id="fluxo-principal-de-eventos_3">Fluxo Principal de Eventos:</h3>
+<p>O criador de conteúdo acessa a seção de transmissão ao vivo na plataforma.
+O sistema exibe opções para iniciar uma nova transmissão ao vivo.
+O criador de conteúdo configura os detalhes da transmissão, como título, descrição e configurações de privacidade.
+O usuário inicia a transmissão ao vivo.
+O sistema configura a conexão e começa a transmitir o vídeo ao vivo.
+Durante a transmissão, o criador de conteúdo pode interagir com espectadores.
+Ao finalizar a transmissão, o criador de conteúdo encerra a transmissão ao vivo.
+O sistema conclui a transmissão e fornece opções para salvar ou descartar a gravação da transmissão..</p>
               
             </div>
           </div><footer>

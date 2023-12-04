@@ -117,10 +117,6 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../processos/">Visão de Processos</a>
-                </li>
-              </ul>
-              <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../implantacao/">Visão de Implantação</a>
                 </li>
               </ul>
@@ -167,12 +163,16 @@
 <p>Nesta visão lógica da arquitetura do projeto, destacamos as partes essenciais do modelo de design, delineando a divisão em subsistemas e pacotes que compõem a estrutura do sistema.</p>
 <h4 id="subsistema-de-front-end">Subsistema de Front-end</h4>
 <p>Este subsistema abrange a camada de apresentação do sistema, responsável por proporcionar a interface com o usuário. No contexto do projeto, a escolha predominante é a utilização de TypeScript e React. Dentro deste subsistema, identificamos pacotes específicos relacionados a diferentes componentes da interface de usuário.</p>
-<p><strong>Autenticação (Component)</strong>
-- <strong>Responsabilidades:</strong> Gerenciar processos de autenticação e autorização do usuário.
-- <strong>Relacionamentos:</strong> Comunica-se com o subsistema de Back-end para validar credenciais do usuário.</p>
-<p><strong>Controle De Vídeos (Component):</strong>
-- <strong>Responsabilidades:</strong> Gerenciar a exibição e interação com vídeos.
-- <strong>Relacionamentos:</strong> Envia solicitações ao Back-end para recuperar dados de vídeos específicos.</p>
+<p><strong>Autenticação (Component)</strong></p>
+<ul>
+<li><strong>Responsabilidades:</strong> Gerenciar processos de autenticação e autorização do usuário.</li>
+<li><strong>Relacionamentos:</strong> Comunica-se com o subsistema de Back-end para validar credenciais do usuário.</li>
+</ul>
+<p><strong>Controle De Vídeos (Component):</strong></p>
+<ul>
+<li><strong>Responsabilidades:</strong> Gerenciar a exibição e interação com vídeos.</li>
+<li><strong>Relacionamentos:</strong> Envia solicitações ao Back-end para recuperar dados de vídeos específicos.</li>
+</ul>
 <h4 id="subsistema-de-back-end">Subsistema de Back-end</h4>
 <p>O subsistema de Back-end lida com a lógica de negócios, processamento de dados e interação com o banco de dados. Aqui, TypeScript é a linguagem predominante.</p>
 <p><strong>Gestão De Usuários (Módulo)</strong></p>
@@ -181,22 +181,26 @@
 <li><strong>Responsabilidades:</strong> Gerenciar informações de usuários, autenticação e autorização.</li>
 <li><strong>Relacionamentos:</strong> Conecta-se ao banco de dados para recuperar e armazenar dados de usuários.</li>
 </ul>
-<p><strong>Conteúdo Multimídia (Módulo)</strong>
-- <strong>Classes:</strong> Vídeo, ComentárioService
-- <strong>Responsabilidades:</strong> Gerenciar conteúdo multimídia, como vídeos e comentários associados.
-Relacionamentos: Interage com o subsistema de Front-end para fornecer dados de vídeos e comentários.</p>
+<p><strong>Conteúdo Multimídia (Módulo)</strong></p>
+<ul>
+<li><strong>Classes:</strong> Vídeo, ComentárioService</li>
+<li><strong>Responsabilidades:</strong> Gerenciar conteúdo multimídia, como vídeos e comentários associados.
+Relacionamentos: Interage com o subsistema de Front-end para fornecer dados de vídeos e comentários.</li>
+</ul>
 <h4 id="subsistema-de-banco-de-dados">Subsistema de Banco de Dados</h4>
 <p>Este subsistema armazena e gerencia os dados persistentes do sistema, utilizando um banco de dados adequado às necessidades do projeto.</p>
-<p><strong>Modelos De Dados</strong>
-- <strong>Entidades:</strong> Usuário, Vídeo, Comentário
-- <strong>Responsabilidades:</strong> Definir estruturas de dados e relacionamentos para persistência.
-Esta visão lógica oferece uma compreensão clara da estrutura do sistema, destacando a organização em subsistemas, pacotes e classes, fornecendo uma base sólida para o desenvolvimento e manutenção do projeto.</p>
+<p><strong>Modelos De Dados</strong></p>
+<ul>
+<li><strong>Entidades:</strong> Usuário, Vídeo, Comentário</li>
+<li><strong>Responsabilidades:</strong> Definir estruturas de dados e relacionamentos para persistência.
+Esta visão lógica oferece uma compreensão clara da estrutura do sistema, destacando a organização em subsistemas, pacotes e classes, fornecendo uma base sólida para o desenvolvimento e manutenção do projeto.</li>
+</ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../visaogeral/" class="btn btn-neutral float-left" title="Visão Geral"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../processos/" class="btn btn-neutral float-right" title="Visão de Processos">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../implantacao/" class="btn btn-neutral float-right" title="Visão de Implantação">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -222,7 +226,7 @@ Esta visão lógica oferece uma compreensão clara da estrutura do sistema, dest
       <span><a href="../visaogeral/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../processos/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../implantacao/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

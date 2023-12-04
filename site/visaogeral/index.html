@@ -103,19 +103,11 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Visão Geral</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#camadas-da-arquitetura">Camadas da Arquitetura</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#diagrama-de-componentes-da-arquitetura">Diagrama de Componentes da Arquitetura</a>
-    </li>
     </ul>
                 </li>
               </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../logica/">Visão Lógica</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../processos/">Visão de Processos</a>
                 </li>
               </ul>
               <ul>
@@ -162,29 +154,43 @@
             <div class="section" itemprop="articleBody">
               
                 <h3 id="visao-geral">Visão Geral</h3>
-<p>Nesta subseção, nomearemos e definiremos as diversas camadas e seu conteúdo, as regras que determinam a inclusão em uma camada específica e as fronteiras entre as camadas. Incluiremos um diagrama de componentes que mostra os relacionamentos entre as camadas.</p>
-<h4 id="camadas-da-arquitetura">Camadas da Arquitetura</h4>
+<p>No âmbito da arquitetura do projeto, citaremos três camadas fundamentais que colaboram para o funcionamento e eficiência do sistema. Essas camadas são estrategicamente definidas para assegurar uma separação clara de responsabilidades e facilitar o desenvolvimento, manutenção e escalabilidade do projeto.</p>
+<h3 id="camadas-da-arquitetura">Camadas da Arquitetura</h3>
 <p><strong>Camada de Apresentação:</strong>
-- Descrição da camada de apresentação e seu papel no sistema.
-- Os principais componentes que pertencem a esta camada.
-- Regras que determinam o que pertence a esta camada.</p>
+Esta camada concentra-se na interface do usuário e na interação direta com os clientes.</p>
+<ul>
+<li>
+<p>Aqui, os principais componentes incluem elementos visuais e lógica associada à apresentação de informações.</p>
+</li>
+<li>
+<p>A regra fundamental desta camada é gerenciar exclusivamente a experiência do usuário, garantindo uma apresentação clara e acessível dos dados.</p>
+</li>
+</ul>
 <p><strong>Camada de Lógica de Negócios:</strong>
-- Descrição da camada de lógica de negócios e seu papel no sistema.
-- Os principais componentes que pertencem a esta camada.
-- Regras que determinam o que pertence a esta camada.</p>
+Abriga os componentes responsáveis por processos e operações centrais. Aqui, definimos as regras de negócios, manipulação de dados e a lógica que governa o comportamento do sistema.</p>
+<p><strong>Componentes:</strong></p>
+<ul>
+<li><strong>Autenticação de usuários:</strong> Responsável por validar e autenticar usuários no sistema.</li>
+<li><strong>Autorização de usuários:</strong> Define as permissões e níveis de acesso para diferentes tipos de usuários.</li>
+<li><strong>Regras:</strong>
+Apenas usuários autenticados podem acessar determinadas funcionalidades.
+Restrições de acesso com base nos papéis atribuídos a cada usuário.</li>
+</ul>
 <p><strong>Camada de Dados:</strong>
-- Descrição da camada de dados e seu papel no sistema.
-- Os principais componentes que pertencem a esta camada.
-- Regras que determinam o que pertence a esta camada.</p>
-<h4 id="diagrama-de-componentes-da-arquitetura">Diagrama de Componentes da Arquitetura</h4>
-<p>A figura a seguir ilustra a estrutura de camadas da arquitetura e seus relacionamentos:</p>
-<p>[Insira aqui o seu diagrama de componentes que mostra as camadas e os principais componentes]</p>
+A sustentação do sistema reside na Camada de Dados, onde os principais componentes estão associados ao armazenamento, recuperação e gerenciamento de dados. As regras nesta camada delineiam as operações de acesso aos dados e garantem a integridade e segurança das informações armazenadas.</p>
+<p><strong>Componentes:</strong></p>
+<ul>
+<li><strong>Controlador de Acesso a Banco de Dados:</strong> Gerencia a comunicação entre a aplicação e o banco de dados.</li>
+<li><strong>Serviços de Cache:</strong> Otimiza o desempenho armazenando em cache dados frequentemente acessados.</li>
+<li><strong>Regras:</strong>
+Estabelece políticas de acesso aos dados e implementa estratégias eficientes de armazenamento em cache.</li>
+</ul>
 <h3 id="diagrama-de-sequencia">Diagrama de Sequência</h3>
-<p>Nesta seção, apresentaremos diagramas de sequência que ilustram as interações entre os componentes do sistema em cenários-chave. Esses diagramas destacarão o fluxo de controle e as trocas de mensagens entre os componentes.</p>
-<p>[Inclua aqui um ou mais diagramas de sequência relevantes]</p>
+<p><em>Diagrama de sequência para usuário visualiza vídeo</em>
+<img src="../img/diagramaDeSequencia.png" style="height: 600px"></p>
 <h3 id="diagrama-de-classes">Diagrama de Classes</h3>
-<p>Aqui, forneceremos um diagrama de classes que descreve a estrutura de classes do sistema, incluindo atributos e métodos. Esse diagrama ajudará a entender a estrutura dos componentes em cada camada e as relações entre eles.</p>
-<p>[Inclua aqui o seu diagrama de classes]</p>
+<p><em>Diagrama de classes para o módulo de vídeos</em>
+<img src="../img/DiagramaDeClasse.png" ></p>
               
             </div>
           </div><footer>
