@@ -20,8 +20,8 @@
 </div>
 
 
-# Vídeo do Protótipo
-- 
+# Link do Vídeo do Protótipo
+- https://youtu.be/AHpwIsztfwE
 
 # Prototipação de Alta Fidelidade
 
