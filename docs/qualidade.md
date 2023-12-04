@@ -1,3 +1,9 @@
 # Qualidade
 
-- [Uma descrição de como a arquitetura do software contribui para todos os recursos (exceto a funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características possuírem significado especial, como implicações de segurança, garantia ou privacidade, elas deverão ser delineadas claramente.]
+A arquitetura do software desempenha um papel crucial no fortalecimento de diversos aspectos fundamentais do sistema, indo além da mera funcionalidade. Cada característica de qualidade, como extensibilidade, confiabilidade e portabilidade, é cuidadosamente moldada pela arquitetura para garantir um desempenho robusto e duradouro.
+A Extensibilidade do sistema é promovida pela arquitetura, permitindo a adição de novos recursos e funcionalidades de forma modular, sem comprometer a estabilidade do sistema. A estrutura arquitetônica cria uma base flexível que facilita adaptações futuras, garantindo a evolução contínua do software.
+
+A Confiabilidade é um pilar essencial e é profundamente influenciada pela arquitetura. A distribuição eficiente de componentes, redundância estratégica e a gestão adequada de falhas colaboram para garantir a estabilidade do sistema, minimizando a probabilidade de interrupções inesperadas.
+
+A Portabilidade é assegurada pela arquitetura que, ao considerar a diversidade de ambientes de implementação, permite que o software seja executado de maneira consistente em diferentes plataformas. Isso é vital para a adaptabilidade do sistema a diversas infraestruturas, maximizando sua utilidade e alcance.
+Além disso, se essas características apresentarem implicações específicas, como requisitos de segurança, garantia de qualidade ou preocupações com privacidade, esses aspectos são meticulosamente delineados na arquitetura. A segurança, por exemplo, é incorporada desde a concepção, implementando práticas e controles que protegem o sistema contra ameaças potenciais. Da mesma forma, garantias de qualidade e considerações de privacidade são integradas à arquitetura para assegurar que o sistema atenda aos mais elevados padrões em todas as áreas relevantes de qualidade.
