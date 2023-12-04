@@ -11,7 +11,6 @@
     <p><strong>Data da Reunião:</strong> 23 de Agosto de 2023</p>
     <p><strong>Horário:</strong> 18:00 - 20:00</p>
     <p><strong>Local:</strong> IFPI Campus Pedro II</p>
-
     <h2>Equipe:</h2>
     <ol>
         <li>Luis Alberto Brito de Matos - Arquiteto de Software (Mod. IV)</li>
@@ -19,7 +18,6 @@
         <li>Lucas Eduardo Soares de Oliveira - Analista de Requisitos (Mod. IV)</li>
         <li>Alan Manoel Fernandes da Silva - Gerente de Qualidade (Mod. IV)</li>
     </ol>
-
     <h2>Agenda:</h2>
     <ol>
         <li>Nome do grupo</li>
@@ -27,9 +25,7 @@
         <li>Ideias de nomes do grupo e do projeto</li>
         <li>Ideias para o tipo de Streaming</li>
     </ol>
-
     <h2>Ideias e Discussões:</h2>
-
     <h3>Nome do Grupo:</h3>
     <ul>
         <li>"DevGhosts"</li>
@@ -38,34 +34,25 @@
         <li>"ArchiLegends"</li>
         <li>"SoftCraft"</li>
     </ul>
-
     <p><strong>Decisão:</strong> Por votação, o nome escolhido foi "ArchiGhost" por representar a combinação de "architecture" e "Ghost", indicando uma arquitetura abstrata.</p>
-
     <h3>Nome do Projeto:</h3>
     <p>Discussão sobre o escopo da plataforma de streaming de música/vídeo.</p>
-
     <p><strong>Decisão:</strong> Streaming único de música ou filmes. Sugestão do Desenvolvedor Sênior para duas ideias adicionais: "Mood" (streaming de música com playlists baseadas no humor do usuário) e "CodeCast" (plataforma de streaming de podcasts/livecode).</p>
-
     <p><strong>Votação:</strong> "CodeCast" vence com três votos contra um.</p>
-
     <h2>Próximos Passos:</h2>
     <ol>
         <li>Criação da logo do projeto</li>
         <li>Escolha da paleta de cores</li>
         <li>Criação da logo para o grupo (ainda indefinido)</li>
     </ol>
-
     <h2>Observações:</h2>
     <ul>
         <li>Nomes humorísticos relacionados ao Arquiteto de Software foram descartados.</li>
         <li>Limitação do escopo para streaming de música ou filmes.</li>
         <li>Participação ativa de todos os membros na discussão e votação.</li>
     </ul>
-
-    <h2>Imagens (exemplo):</h2>
-    <ol>
-        <li>Imagem da sala de reunião</li>
-    </ol>
+    <h2>Imagens:</h2>
+    <img src="../img/fotoReuniao0.png" style="height: 400px">
 </details>
 
 <details>
