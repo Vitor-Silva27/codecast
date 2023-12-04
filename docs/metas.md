@@ -5,7 +5,6 @@ Para o desenvolvimento do software, a equipe optou por utilizar uma combinação
 
 - **TypeScript**
 - **Python**
-- **Kotlin**
 - **HTML - Linguagem de marcação**
 - **CSS - Folha de estilização**
 
@@ -13,7 +12,7 @@ Para o desenvolvimento do software, a equipe optou por utilizar uma combinação
 
 **HTML e CSS:** Será utilizada para criar todo o corpo e design do sistema.
 
-**Python e Kotlin:** Ambas serão utilizadas para o back-end em conjunto com TypeScript.
+**Python** Sera utilizado para o back-end em conjunto com TypeScript.
 
 Por se tratar de uma arquitetura em microserviços, poderão ser adotadas outras linguagens pelo desenvolvedor a depender do propósito. Essa escolha visa promover uma base sólida para a construção de microserviços, priorizando a consistência e manutenibilidade do código.
 
@@ -35,11 +34,18 @@ Para alcançar os objetivos do projeto, serão utilizadas diversas ferramentas d
 - **Ambiente de Desenvolvimento:** Visual Studio Code.
 - **Controle de Versão:** Git para o gerenciamento eficiente de código-fonte.
 - **Framework Front-end:** React para a construção de interfaces dinâmicas.
-- **Framework Back-end:** Flask (Python) Express.js (Typescript), para o desenvolvimento ágil e eficiente.
+- **Framework Back-end:** Alguns exemplos de framework podem ser, Flask (Python) Nest.js (Typescript). No entanto, fica a critério do desenvolvedor sênior utiliza-las ou acrescentar mais frameworks.
 - **Bibliotecas Adicionais:** Axios para requisições HTTP eficientes no front-end e Flask-RESTful para a criação de APIs RESTful no back-end.
 
 Essas ferramentas foram escolhidas para proporcionar uma experiência de desenvolvimento homogêneo e eficaz, alinhada aos objetivos e requisitos do projeto.
 
 
 # Cronograma
-- **Fases do Projeto:** Apresente um cronograma detalhado que descreva o que será implementado em cada fase do projeto. Isso pode incluir marcos, datas de entrega, tarefas específicas e responsabilidades. É recomendado criar uma tabela para melhorar a apresentação! 
+
+| Tarefa |Data  | Tarefa realizada |
+|-----|-----------|-----------|
+| Etapa 1 | 17/08/2023  |    Reunião com o requisitante do projeto        |
+| Etapa 2 |  02/09/2023 |   Definição dos requisitos       |
+| Etapa 3 | 25/09/2023  |   Criação da identidade visual        |
+| Etapa 4 | 20/09/2023  |   Elaboração da doumentação        |
+| Etapa 5 |  31/10/2023 |   Prototipação        |

@@ -2,7 +2,7 @@
 
 |Projeto | Requisitante | Gerente de Projetos|
 | -------| ------------ | -------------------|
-| CodeCast |              |                    |
+| CodeCast | Cleber Araujo | Luis Alberto    |
 
 # Brainstorming 
 <details>
