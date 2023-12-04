@@ -163,8 +163,38 @@
 <p>O MongoDB oferece flexibilidade no modelo de dados, sendo capaz de lidar com documentos complexos, como informações de vídeos, usuários e interações. Sua capacidade de escalabilidade horizontal é crucial para garantir o gerenciamento eficiente de grandes volumes de dados e cargas de tráfego intenso, características intrínsecas a plataformas de streaming.</p>
 <p>Além disso, a natureza distribuída do MongoDB é vital para assegurar que os dados não estejam centralizados em um único local, proporcionando redundância e evitando perda de dados em casos de falhas ou danos ao banco de dados.</p>
 <h1 id="gerenciamento-de-bancos-de-dados">Gerenciamento de bancos de dados</h1>
+<p>O gerenciamento segue um modelo distribuído e escalável para lidar com grandes volumes de dados e tráfego simultâneo de usuários. Aqui estão alguns aspectos relacionados ao modelo de dados deste sistema:</p>
+<h4 id="armazenamento-distribuido">Armazenamento Distribuído</h4>
 <ul>
-<li>Incluir também imagens e  o modelo do Diagrama de Dados. </li>
+<li><strong>Banco de Dados NoSQL:</strong> Será utilizado banco de dados NoSQL, como o MongoDB, para permitir uma escalabilidade horizontal eficiente. Isso é crucial para lidar com a alta demanda de leitura e gravação.</li>
+<li><strong>Divisão de Dados por Geografia:</strong> Para otimizar o desempenho e reduzir a latência, os dados podem ser distribuídos geograficamente em centros de dados ao redor do mundo, permitindo uma entrega rápida de conteúdo aos usuários.</li>
+</ul>
+<h4 id="gerenciamento-de-metadados">Gerenciamento de Metadados</h4>
+<ul>
+<li><strong>Indexação Eficiente:</strong> Sistemas de streaming precisam de um mecanismo eficiente para indexar e recuperar metadados relacionados a vídeos, como título, descrição, tags e informações do criador.</li>
+<li><strong>Sistema de Filas para Processamento Assíncrono:</strong> O uso de sistemas de filas, como o Apache Kafka, pode ser adotado para processar assincronamente operações relacionadas a metadados, como atualizações de visualizações, likes e recomendações.</li>
+</ul>
+<h4 id="gerenciamento-de-conteudo-multimidia">Gerenciamento de Conteúdo Multimídia</h4>
+<ul>
+<li><strong>Transcodificação Dinâmica:</strong> Os sistemas realizam transcodificação dinâmica para oferecer suporte a diferentes resoluções e formatos de vídeo, garantindo uma experiência de visualização otimizada para dispositivos variados.</li>
+</ul>
+<h4 id="sistemas-de-cache">Sistemas de Cache</h4>
+<ul>
+<li><strong>Cache de Conteúdo Dinâmico:</strong> O uso de sistemas de cache, como o Redis, para armazenar temporariamente informações frequentemente acessadas, como informações de perfil do usuário, listas de reprodução e configurações pessoais.</li>
+</ul>
+<h4 id="processamento-de-streams-ao-vivo">Processamento de Streams ao Vivo</h4>
+<ul>
+<li><strong>Tecnologias de Streaming:</strong> Utilização de protocolos de streaming, como o HTTP Live Streaming (HLS) ou o Dynamic Adaptive Streaming over HTTP (DASH), para entregar conteúdo ao vivo de maneira eficiente e adaptável à largura de banda do usuário.</li>
+</ul>
+<h4 id="analise-de-dados-em-tempo-real">Análise de Dados em Tempo Real</h4>
+<ul>
+<li><strong>Ferramentas de Análise de Big Data:</strong> O processamento de eventos em tempo real e a análise de big data são usados para entender padrões de comportamento do usuário, melhorar recomendações e personalizar a experiência do usuário.</li>
+</ul>
+<h4 id="backup-e-seguranca">Backup e segurança</h4>
+<ul>
+<li><strong>Soluções de Backup e Recuperação:</strong> Para garantir a integridade e a disponibilidade contínua dos dados, implementaremos estratégias de backup regulares, utilizando soluções confiáveis como AWS Backup. Isso assegura a rápida recuperação em caso de falhas ou perda de dados.</li>
+<li><strong>Políticas de Retenção e Gerenciamento de Dados:</strong> Estabeleceremos políticas claras de retenção de dados, gerenciando adequadamente o ciclo de vida das informações armazenadas. Dados desnecessários serão arquivados ou excluídos regularmente, otimizando o uso de recursos de armazenamento.</li>
+<li><strong>Segurança Avançada dos Dados:</strong> Implementaremos medidas de segurança avançadas, como criptografia de dados em repouso e em trânsito, para proteger as informações sensíveis. O controle de acesso será rigorosamente aplicado para garantir que apenas usuários autorizados possam acessar e modificar dados.</li>
 </ul>
               
             </div>
