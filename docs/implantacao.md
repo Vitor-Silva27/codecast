@@ -29,8 +29,13 @@ Apresentamos as configurações da rede física onde o software será implantado
 ##### Mapeamento de Processos
 
 **Subsistema de Front-end:**
+
 - O processo do Servidor Front-end executa as lógicas do Front-end, interagindo com os clientes e encaminhando solicitações ao Subsistema de Back-end.
+
 **Subsistema de Back-end:**
+
 - O Servidor Principal aloca processos para gerenciar autenticação, autorização, processamento de vídeo e interações com o banco de dados.
-- **Banco de Dados:**
-  - O Servidor de Banco de Dados executa processos relacionados ao armazenamento, recuperação e manipulação eficiente de dados persistidos.
+
+**Banco de Dados:**
+
+- O Servidor de Banco de Dados executa processos relacionados ao armazenamento, recuperação e manipulação eficiente de dados persistidos.
