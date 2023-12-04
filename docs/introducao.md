@@ -7,8 +7,22 @@ Este documento tem como finalidade esclarecer e detalhar os requisitos fundament
 
  
 #### Escopo do Documento:
-- O que está incluído no documento.
-- O que não está incluído.
+**Incluso no Documento**
+
+- Requisitos fundamentais para a arquitetura do sistema CodeCast.
+- Detalhes sobre os principais componentes e estratégias arquiteturais.
+- Linguagens de programação utilizadas.
+- Banco de dados utilizados.
+- Diagramas.
+- entre outras informações.
+
+**Não Incluso no Documento:**
+
+- Codificação do sistema.
+- Detalhes operacionais específicos da codificação.
+- Processos operacionais.
+- Documentação legal específica.
+- entre outros.
 
 #### Definições, Acrônimos e Abreviações:
 **Definições:**
@@ -19,13 +33,37 @@ Este documento tem como finalidade esclarecer e detalhar os requisitos fundament
 #### Referências:
 - Documentos ou fontes consultadas durante a criação da arquitetura.
 - Padrões ou recursos relevantes.
+
 #### Visão Geral do Documento:
-- Estrutura geral do documento.
-- Resumo das seções ou capítulos.
+**Resumo das seções ou capítulos:**
+
+- Introdução: Finalidade do documento.
+- Identificação do projeto: Descrição de algumas informações do projeto, como brainstormings, e listagem de requisitos funcionais e não funcionais.
+- Representação Arquitetural: Apresentação das visões arquiteturais.
+- Guia de Estilo: Detalhes do design do projeto, como Logo, tipografia, identidade visual, etc.
+- Padrões e Práticas Recomendadas: Padrões e práticas recomendadas para garantir a qualidade da arquitetura.
+- Comunicação e Integração:mecanismos de comunicação entre os componentes e APIs.
+- Segurança: Estratégias de segurança adotadas.
+- Desempenho e Escalabilidade: Detalhes que garantem o desempenho e a escalabilidade. 
+- Realizações de Casos de Uso: Representações de casos de uso do sistema.
+- Plano de Risco: Avaliação dos possivéis riscos para o sistema.
+- Estimativas de Custo: Avaliação de estimativas de custo para a criação do sistema. 
+- Prototipação: Prototipos das telas do sistema.
+- Metodologia: Descreve a metodologia utilizada para o desenvolvimento do sistema.
+- Visão Geral: Apresenta uma visão resumida do sistema.
+- Visão Lógica: Detalhes da lógica do sistema.
+- Visão de Implantação: Descreve a distribuição física do sistema.
+- Visão de Dados: Aborda a estrutura e gerenciamneto do banco de dados.
+- Qualidade: Descreve a qualidade do sistema.
+- Anexos:
+- Referências:
+
 #### Público-Alvo:
 Este documento é destinado a desenvolvedores de software, arquitetos de sistemas, e demais profissionais envolvidos no ciclo de desenvolvimento do projeto CodeCast.
+
 #### Uso do Documento:
 Os desenvolvedores podem utilizar este documento como referência para entender os requisitos arquiteturais do sistema CodeCast. Arquitetos de sistemas podem usá-lo como base para tomar decisões fundamentadas.
+
 #### Resumo da Arquitetura:
 A arquitetura do projeto é fundamentada no paradigma de microserviços, adotando uma abordagem distribuída para oferecer uma plataforma de streaming de vídeos e transmissões ao vivo relacionadas à programação.
 
